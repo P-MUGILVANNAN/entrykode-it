@@ -409,13 +409,13 @@ function Home() {
                 <h4 className="fw-bold mb-3">DM on Socials</h4>
                 <p>Fast responses via Instagram or Twitter.</p>
                 <div className="d-flex gap-2 justify-content-center mt-3">
-                  <a href="#" className="btn btn-outline-light btn-sm rounded-circle">
+                  <a href="https://www.instagram.com/entrykode/?__pwa=1#" target='_blank' className="btn btn-outline-light btn-sm rounded-circle">
                     <i className="bi bi-instagram"></i>
                   </a>
-                  <a href="#" className="btn btn-outline-light btn-sm rounded-circle">
-                    <i className="bi bi-twitter-x"></i>
+                  <a href="https://www.facebook.com/profile.php?id=61560108601052" target='_blank' className="btn btn-outline-light btn-sm rounded-circle">
+                    <i className="bi bi-facebook"></i>
                   </a>
-                  <a href="#" className="btn btn-outline-light btn-sm rounded-circle">
+                  <a href="https://www.linkedin.com/in/entry-kode-a44668261/" target='_blank' className="btn btn-outline-light btn-sm rounded-circle">
                     <i className="bi bi-linkedin"></i>
                   </a>
                 </div>

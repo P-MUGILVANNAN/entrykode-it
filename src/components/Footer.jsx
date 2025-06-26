@@ -27,20 +27,14 @@ function Footer() {
               <i className="bi bi-telephone-fill me-2"></i> +91 7200913535
             </p>
             <div className="mt-3">
-              <a href="#" className="text-white me-3">
+              <a href="https://www.facebook.com/profile.php?id=61560108601052" target='_blank' className="text-white me-3">
                 <i className="bi bi-facebook fs-5"></i>
               </a>
-              <a href="#" className="text-white me-3">
-                <i className="bi bi-twitter-x fs-5"></i>
-              </a>
-              <a href="#" className="text-white me-3">
+              <a href="https://www.linkedin.com/in/entry-kode-a44668261/" target='_blank' className="text-white me-3">
                 <i className="bi bi-linkedin fs-5"></i>
               </a>
-              <a href="#" className="text-white me-3">
+              <a href="https://www.instagram.com/entrykode/?__pwa=1#" target='_blank' className="text-white me-3">
                 <i className="bi bi-instagram fs-5"></i>
-              </a>
-              <a href="#" className="text-white">
-                <i className="bi bi-youtube fs-5"></i>
               </a>
             </div>
           </div>
