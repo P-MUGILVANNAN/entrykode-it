@@ -68,12 +68,6 @@ function ItServices() {
               }}>
                 Get Started <i className="bi bi-arrow-right"></i>
               </button>
-              <button className="btn btn-lg px-4" style={{
-                borderColor: 'rgba(255,255,255,0.3)',
-                color: 'white'
-              }}>
-                Learn More
-              </button>
             </div>
             <div className="col-lg-4 d-none d-lg-block text-center">
               <i className="bi bi-laptop" style={{
