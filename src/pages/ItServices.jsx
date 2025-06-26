@@ -6,32 +6,32 @@ function ItServices() {
     {
       icon: 'bi-code-slash',
       title: 'Web Development',
-      description: 'Custom website development using modern technologies like React, Angular, and Vue.js.'
+      description: 'Custom website development using modern technologies like React, Angular, and Vue.js.',
+      templateLink:'/web-development'
     },
     {
       icon: 'bi-phone',
       title: 'Mobile App Development',
-      description: 'iOS and Android app development with Flutter or React Native for cross-platform solutions.'
+      description: 'iOS and Android app development with Flutter or React Native for cross-platform solutions.',
+      templateLink:'/mobile-development'
     },
     {
       icon: 'bi-cloud',
       title: 'Cloud Services',
-      description: 'Cloud migration, management, and optimization for AWS, Azure, and Google Cloud.'
+      description: 'Cloud migration, management, and optimization for AWS, Azure, and Google Cloud.',
+      templateLink:'/cloud-services'
     },
     {
       icon: 'bi-shield-lock',
       title: 'Networking',
-      description: 'Comprehensive security solutions to protect your digital assets and data.'
+      description: 'Comprehensive security solutions to protect your digital assets and data.',
+      templateLink:'/networking'
     },
     {
       icon: 'bi-palette',
       title: 'Designing',
-      description: 'Creative UI/UX design services to enhance user experience and engagement.'
-    },
-    {
-      icon: 'bi-server',
-      title: 'IT Consulting',
-      description: 'Strategic IT planning and consulting to align technology with business goals.'
+      description: 'Creative UI/UX design services to enhance user experience and engagement.',
+      templateLink:'/designer'
     }
   ];
 
@@ -123,12 +123,12 @@ function ItServices() {
                     <p className="card-text" style={{ color: 'rgba(255,255,255,0.7)' }}>
                       {service.description}
                     </p>
-                    <a href="#!" className="text-decoration-none" style={{
+                    <Link to={service.templateLink} className="text-decoration-none" style={{
                       color: '#ff4d4d',
                       fontWeight: '500'
                     }}>
                       Learn more <i className="bi bi-chevron-right"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
