@@ -13,11 +13,13 @@ import Networking from './pages/Networking';
 import Contact from './pages/Contact';
 import AboutUs from './pages/AboutUs';
 import FloatingContactButton from './components/FloatingContactButton';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about-us' element={<AboutUs />} />
